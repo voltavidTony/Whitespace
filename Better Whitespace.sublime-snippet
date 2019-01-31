@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[better_whitespace_ignore_all]]></content>
+	<tabTrigger>bwsia</tabTrigger>
+	<description>Ignore all override</description>
+</snippet>

@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Better Whitespace: Remove empty lines",
+        "command": "remove_empty_lines"
+    },
+    {
+        "caption": "Better Whitespace: Ensure single trailing newline",
+        "command": "eof_whitespace"
+    },
+    {
+        "caption": "Better Whitespace: Remove trailing whitespace",
+        "command": "eol_whitespace"
+    }
+]

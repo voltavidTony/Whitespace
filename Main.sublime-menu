@@ -1,0 +1,61 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "betterwhitespace",
+                "caption": "Better Whitespace",
+                "children":
+                [
+                    {
+                        "id": "removeempty",
+                        "caption": "Remove empty lines",
+                        "command": "remove_empty_lines"
+                    },
+                    {
+                        "id": "bwsseparator",
+                        "caption": "-"
+                    },
+                    {
+                        "id": "ialtoggle",
+                        "caption": "Area of effect",
+                        "children":
+                        [
+                            {
+                                "id": "aoeentiredoc",
+                                "caption": "Entire Document",
+                                "command": "set_setting",
+                                "args": {"setting": "better_whitespace_area_of_effect", "value": "full"}
+                            },
+                            {
+                                "id": "aoeoutsidesel",
+                                "caption": "Selected Lines",
+                                "command": "set_setting",
+                                "args": {"setting": "better_whitespace_area_of_effect", "value": "selected"}
+                            },
+                            {
+                                "id": "aoewithinsel",
+                                "caption": "Unselected Lines",
+                                "command": "set_setting",
+                                "args": {"setting": "better_whitespace_area_of_effect", "value": "unselected"}
+                            }
+                        ]
+                    },
+                    {
+                        "id": "eoftoggle",
+                        "caption": "Ensure empty line at EOF",
+                        "command": "toggle_setting",
+                        "args": {"setting": "better_whitespace_empty_line_at_eof"}
+                    },
+                    {
+                        "id": "eoltoggle",
+                        "caption": "Remove whitespace at EOL",
+                        "command": "toggle_setting",
+                        "args": {"setting": "better_whitespace_remove_whitespace_at_eol"}
+                    }
+                ]
+            }
+        ]
+    }
+]
