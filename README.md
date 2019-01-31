@@ -33,4 +33,4 @@ When set to "full", then the entire document is edited by the comands. When set 
 This override will prevent the commands from automatically running when the user saves, reguardless of what the settings indicate. It will however not prevent manual execution of the commands. Insert this snippet from the snippet palette, or by typing `bwsia` and pressing tab. (The plugin file itself includes this, since I didn't want the plugin to self-execute when I was still developing it.)
 
 ## Installation
-This plugin is accessible via Package Control.
+This plugin is not accessible via Package Control, so you have to manually install it.
