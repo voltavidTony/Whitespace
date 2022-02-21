@@ -51,9 +51,9 @@ class EofWhitespaceCommand(sublime_plugin.TextCommand):
 class EolWhitespaceCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         sel = self.view.settings().get("better_whitespace_area_of_effect",
-                                       "selected") == "selected"
+                                       "selected") != "selected"
         unsel = self.view.settings().get("better_whitespace_area_of_effect",
-                                         "unselected") != "unselected"
+                                         "unselected") == "unselected"
         for whitespace in reversed(
             self.view.find_all(r"(^|(?<=\S))(?:(?![\r\n])\s)+$")
         ):
@@ -70,9 +70,9 @@ class EolWhitespaceCommand(sublime_plugin.TextCommand):
 class RemoveEmptyLinesCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         sel = self.view.settings().get("better_whitespace_area_of_effect",
-                                       "selected") == "selected"
+                                       "selected") != "selected"
         unsel = self.view.settings().get("better_whitespace_area_of_effect",
-                                         "unselected") != "unselected"
+                                         "unselected") == "unselected"
         for whitespace in reversed(
             self.view.find_all(r"\s+(?=[\r\n])")
         ):
