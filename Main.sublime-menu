@@ -29,13 +29,13 @@
                                 "args": {"setting": "better_whitespace_area_of_effect", "value": "full"}
                             },
                             {
-                                "id": "aoeoutsidesel",
+                                "id": "aoewithinsel",
                                 "caption": "Selected Lines",
                                 "command": "set_setting",
                                 "args": {"setting": "better_whitespace_area_of_effect", "value": "selected"}
                             },
                             {
-                                "id": "aoewithinsel",
+                                "id": "aoeoutsidesel",
                                 "caption": "Unselected Lines",
                                 "command": "set_setting",
                                 "args": {"setting": "better_whitespace_area_of_effect", "value": "unselected"}
